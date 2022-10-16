@@ -1,0 +1,68 @@
+{
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@vitejs/plugin-react": "^2.1.0",
+    "happy-dom": "^7.5.12",
+    "standard": "^17.0.0",
+    "vitest": "^0.24.3"
+  },
+  "name": "vitest-react-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "acorn": "^8.8.0",
+    "assertion-error": "^1.1.0",
+    "chai": "^4.3.6",
+    "check-error": "^1.0.2",
+    "debug": "^4.3.4",
+    "deep-eql": "^3.0.1",
+    "esbuild": "^0.15.11",
+    "esbuild-windows-64": "^0.15.11",
+    "function-bind": "^1.1.1",
+    "get-func-name": "^2.0.0",
+    "has": "^1.0.3",
+    "is-core-module": "^2.10.0",
+    "local-pkg": "^0.4.2",
+    "loupe": "^2.3.4",
+    "mathjs": "^11.3.0",
+    "ms": "^2.1.2",
+    "nanoid": "^3.3.4",
+    "path-parse": "^1.0.7",
+    "pathval": "^1.1.1",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.18",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "resolve": "^1.22.1",
+    "rollup": "^2.78.1",
+    "source-map-js": "^1.0.2",
+    "strip-literal": "^0.4.2",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "tinybench": "^2.3.0",
+    "tinypool": "^0.3.0",
+    "tinyspy": "^1.0.2",
+    "type-detect": "^4.0.8",
+    "vite": "^3.1.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgironpe/vitest-react-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgironpe/vitest-react-tdd/issues"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslinrc.json"
+  },
+  "homepage": "https://github.com/fgironpe/vitest-react-tdd#readme",
+  "description": ""
+}
